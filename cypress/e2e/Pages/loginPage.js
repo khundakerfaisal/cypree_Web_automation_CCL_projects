@@ -6,6 +6,7 @@ class LoginPage {
         cy.get('#login').type(authGroup.authUser)
         cy.get('#password').type(authGroup.authPassword)
         cy.get('.btn').click()
+        cy.wait(1000)
     }
 }
 
