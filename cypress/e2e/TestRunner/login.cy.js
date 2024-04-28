@@ -1,4 +1,4 @@
-import LoginPage from "./Pages/loginPage";
+import LoginPage from "../Pages/loginPage";
 
 describe("CCL Login page", () => {
     const loginPage = new LoginPage();

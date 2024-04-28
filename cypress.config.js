@@ -9,8 +9,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
       config.specPattern = [
-        'cypress/e2e/login.cy.js',
-        'cypress/e2e/PurchaseRequisition.cy.js',
+        'cypress/e2e/TestRunner/login.cy.js',
+        'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
       ]
       return config;
       // implement node event listeners here
