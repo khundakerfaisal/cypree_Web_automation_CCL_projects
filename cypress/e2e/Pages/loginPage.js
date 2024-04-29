@@ -6,6 +6,10 @@ class LoginPage {
         cy.visit(URL.TestURL)        // cy.visit("http://192.168.3.187:7071/web/login");
         cy.get('#login').type(authGroup.authUser)
         cy.get('#password').type(authGroup.authPassword)
+
+        //Access group wise PR initiate
+        // cy.get('#login').type(authGroup.PRinitUser)
+        // cy.get('#password').type(authGroup.PRInitPassword)
         cy.get('.btn').click()
         cy.wait(1000)
     }

@@ -1,4 +1,14 @@
 {
     "authUser":"qa_user",
-    "authPassword":"1234"
+    "authPassword":"1234",
+
+    "PRinitUser":"init.user",
+    "PRInitPassword":"1234",
+
+    "PRHoDUser":"hod.user",
+    "PRHoDPassword":"1234",
+
+    "PRGMUser":"factory_gm",
+    "PRGMPassword":"1234"
+
 }
