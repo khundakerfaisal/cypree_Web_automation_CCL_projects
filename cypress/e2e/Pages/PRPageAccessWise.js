@@ -60,6 +60,7 @@ class PRPageAccessGroupWise {
             cy.wait(500)
             cy.get('[name="action_hod_hoit_approve"]').click()
             cy.wait(500)
+            cy.screenshot()
 
             //HoD Approval button permission End
 

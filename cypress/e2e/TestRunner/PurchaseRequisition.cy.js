@@ -12,9 +12,9 @@ describe("Create Purchase Request", () => {
         loginPage.CCLLoginPage();
     })
     it("Create New Purchase Requisition", () => {
-        // prPage.CCLPRPage();
+        prPage.CCLPRPage();
         // prAccessPage.CCLPRPageAccessGroupWise();
-        RfqType.CCLRFQTypeWiseWithAccessGroup();
+        // RfqType.CCLRFQTypeWiseWithAccessGroup();
 
     })
 })

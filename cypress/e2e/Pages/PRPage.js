@@ -6,18 +6,31 @@ class PRPage {
         cy.get('[href="#menu_id=309&action=502"]').click()
         cy.wait(2000)
         for (let i = 0; i < 1; i++) {
-            cy.wait(2000)
+            // cy.wait(2000)
             cy.contains('button','New').click()
             // cy.get('.d-xl-none > .o_list_button_add').click()
             cy.wait(1000)
             cy.get('#priority_0').select('High')
             cy.get('#requisition_type_0').select('Local Purchase')
             
-            cy.get('#department_id_0').type('DevOps').type('{enter}')
+            // cy.get('#department_id_0').type('DevOps').type('{enter}')
+            // cy.wait(2000)
+
+            // cy.get('#department_id_0').type('Testing CCL dept').type('{enter}')
+            // cy.wait(2000)
+            // cy.get('#budget_id_0').type('{enter}')
+            // // Budget Selections point
+            // cy.wait(500)
+
+            cy.get('#department_id_0').type('Sales').type('{enter}')
             cy.wait(2000)
-            cy.get('#budget_id_0').type('{downArrow}{downArrow}{enter}')
+            cy.get('#budget_id_0').type('{downArrow}{enter}')
             // Budget Selections point
-            cy.wait(2000)
+            cy.wait(1500)
+
+            // cy.get('#budget_id_0').type('{downArrow}{downArrow}{enter}')
+            // Budget Selections point
+            // cy.wait(2000)
             // First  product line created
             cy.contains('a', 'Add a line').click()
             cy.wait(1000)
@@ -31,15 +44,15 @@ class PRPage {
             // End First  product line created
 
             // Second product line created
-            cy.contains('a', 'Add a line').click()
-            cy.wait(1000)
-            cy.get('[data-tooltip-delay="1000"][name="product_id"] > .o_field_widget > .o_field_many2one_selection > .o_input_dropdown > .o-autocomplete > .o-autocomplete--input').click()
-            cy.wait(2000)
-            cy.contains('a', 'Chair Executive ').click()
-            cy.wait(3000)
-            cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').click()
-            cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').clear().type('3')
-            cy.wait(500)
+            // cy.contains('a', 'Add a line').click()
+            // cy.wait(1000)
+            // cy.get('[data-tooltip-delay="1000"][name="product_id"] > .o_field_widget > .o_field_many2one_selection > .o_input_dropdown > .o-autocomplete > .o-autocomplete--input').click()
+            // cy.wait(2000)
+            // cy.contains('a', 'Chair Executive ').click()
+            // cy.wait(3000)
+            // cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').click()
+            // cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').clear().type('3')
+            // cy.wait(500)
             // End product line created
             cy.get('.o_form_button_save').click()
             cy.get('[name="action_submit"]').click()
