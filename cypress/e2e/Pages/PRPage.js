@@ -1,4 +1,4 @@
-const URL=require('E://CY_CCL_Projects/cypress/fixtures/login_URL.json')
+const URL = require('E://CY_CCL_Projects/cypress/fixtures/login_URL.json')
 const authGroup = require('E://CY_CCL_Projects/cypress/fixtures/userAccessGroup.json')
 class PRPage {
     CCLPRPage() {
@@ -7,30 +7,34 @@ class PRPage {
         cy.wait(2000)
         for (let i = 0; i < 1; i++) {
             // cy.wait(2000)
-            cy.contains('button','New').click()
+            cy.contains('button', 'New').click()
             // cy.get('.d-xl-none > .o_list_button_add').click()
             cy.wait(1000)
             cy.get('#priority_0').select('High')
             cy.get('#requisition_type_0').select('Local Purchase')
-            
-            // cy.get('#department_id_0').type('DevOps').type('{enter}')
-            // cy.wait(2000)
+
+            // cy.get('#requisition_type_0').select('Direct Purchase')
+            // cy.get('#requisition_type_0').select('Foreign Purchase')
+
+            cy.get('#department_id_0').type('DevOps').type('{enter}')
+            cy.wait(2000)
 
             // cy.get('#department_id_0').type('Testing CCL dept').type('{enter}')
             // cy.wait(2000)
-            // cy.get('#budget_id_0').type('{enter}')
+            // cy.get('#budget_id_0').type('{downArrow}{enter}')       
             // // Budget Selections point
             // cy.wait(500)
 
-            cy.get('#department_id_0').type('Sales').type('{enter}')
-            cy.wait(2000)
+            // cy.get('#department_id_0').type('Sales').type('{enter}')
+            // cy.wait(2000)
+            // cy.get('#budget_id_0').type('{downArrow}{enter}')
+            // // Budget Selections point
+            // cy.wait(2000)
+
             cy.get('#budget_id_0').type('{downArrow}{enter}')
             // Budget Selections point
-            cy.wait(1500)
+            cy.wait(2000)
 
-            // cy.get('#budget_id_0').type('{downArrow}{downArrow}{enter}')
-            // Budget Selections point
-            // cy.wait(2000)
             // First  product line created
             cy.contains('a', 'Add a line').click()
             cy.wait(1000)
@@ -59,7 +63,7 @@ class PRPage {
             cy.wait(500)
 
             //HoD Approval button permission start
-            
+
             // cy.visit(URL.TestURL)        // cy.visit("http://192.168.3.187:7071/web/login");
             // cy.get('#login').type(authGroup.PRHoDUser)
             // cy.get('#password').type(authGroup.PRHoDPassword)
@@ -72,7 +76,7 @@ class PRPage {
             // cy.wait(500)
             cy.get('[name="action_hod_hoit_approve"]').click()
             cy.wait(500)
-            
+
             //HoD Approval button permission End
 
             //GM Approval button permission Start
