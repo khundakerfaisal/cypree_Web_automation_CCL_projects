@@ -11,6 +11,7 @@ module.exports = defineConfig({
       config.specPattern = [
         'cypress/e2e/TestRunner/login.cy.js',
         'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
+        'cypress/e2e/TestRunner/Rfq.cy.js',
         
       ]
       return config;
