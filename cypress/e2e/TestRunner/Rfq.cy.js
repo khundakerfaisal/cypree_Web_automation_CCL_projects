@@ -14,4 +14,12 @@ describe("Create Request For Quotation", () => {
         // RfqType.CCLRFQTypeWiseWithAccessGroup();
 
     })
+    
+    it("closes the test browser", () => {
+        // Close the browser window
+        cy.window().then(win => {
+          win.close();
+        });
+      });
+      
 })

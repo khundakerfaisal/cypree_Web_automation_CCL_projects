@@ -12,6 +12,7 @@ module.exports = defineConfig({
         'cypress/e2e/TestRunner/login.cy.js',
         'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
         'cypress/e2e/TestRunner/Rfq.cy.js',
+        'cypress/e2e/TestRunner/csTestRunner.cy.js',
         
       ]
       return config;
