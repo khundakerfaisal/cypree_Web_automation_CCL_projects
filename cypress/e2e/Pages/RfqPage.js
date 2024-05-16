@@ -46,6 +46,8 @@ class RfqPage{
         // End with multiple price unit selections
         cy.xpath('//button[@name="action_create_quotations"]').click()
         cy.wait(500)
+
+        
     
 
 
