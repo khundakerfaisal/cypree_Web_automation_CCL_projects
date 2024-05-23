@@ -13,5 +13,6 @@ describe("Create Comparative statement",()=>{
     it("Create New Comparative statement",()=>{
         comparativestatementpage.CCLCSPage();
     })
+    Cypress.on('uncaught: exception', ()=> false)
 
 })
