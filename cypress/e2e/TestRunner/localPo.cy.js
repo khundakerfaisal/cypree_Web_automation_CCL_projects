@@ -12,6 +12,13 @@ describe("Create Local PO",()=>{
     it("Create New Local PO",()=>{
         localPoPage.CCLLocalPo()
     })
-    Cypress.on('uncaught: exception', ()=> false)
+  
 
+    it("closes browser", () => {
+        // Close the browser window
+        cy.window().then(win => {
+          win.close();
+        });
+      });
+      Cypress.on('uncaught: exception', ()=> false)
 })

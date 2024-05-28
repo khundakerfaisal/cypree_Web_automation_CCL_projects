@@ -12,10 +12,13 @@ class LocalPoPage{
         cy.wait(1000)
         cy.xpath('//div[@name="partner_id"]').type('DreamIT Ltd').type('{enter}')
         cy.wait(500)
-        cy.get('#rfq_id_0').type('{downArrow}{enter}')   
-        cy.wait(1500)
+        cy.get('#rfq_id_0').click()
+        cy.get('.dropdown-item').eq(1).type('{enter}')   
+        cy.wait(1000)
+        cy.get('#cs_ids_0').click()  
+        cy.wait(500)
         cy.get('#cs_ids_0').type('{enter}')   
-        cy.wait(1500)
+        cy.wait(1000)
         cy.xpath('//button[@data-tooltip="Save manually"]').click()
         cy.wait(500)
  
@@ -25,9 +28,9 @@ class LocalPoPage{
         cy.wait(500)
  
 
-        // cy.get('.breadcrumb-item').eq(0)
-        // .contains('Local Purchase')
-        // .should('exist');
+        cy.get('.breadcrumb-item').eq(0)
+        .contains('Local Purchase')
+        .should('exist');
  
     }
 }

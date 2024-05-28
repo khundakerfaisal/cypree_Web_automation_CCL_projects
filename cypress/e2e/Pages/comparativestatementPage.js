@@ -8,6 +8,7 @@ class comparativestatementPage{
         cy.contains('button', 'New').click()
         cy.wait(1000)
         cy.get('#request_for_quotation_id_0').click()
+        cy.wait(1000)
         cy.get('#request_for_quotation_id_0').type('{enter}')
         cy.wait(1000)
         cy.xpath('//button[@data-tooltip="Save manually"]').click()

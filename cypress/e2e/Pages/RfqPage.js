@@ -10,8 +10,9 @@ class RfqPage{
         cy.contains('button', 'New').click()
         cy.wait(1000)
         cy.get('#purchase_request_ids_0').click()
-        cy.get('#purchase_request_ids_0').type('{downArrow}{enter}')
-        cy.wait(500)
+        cy.wait(1000)
+        cy.get('#purchase_request_ids_0').type('{enter}')
+        cy.wait(1000)
 
         // If we choose multiple quotation use this code
         // cy.get('#purchase_request_ids_0').type('{downArrow}{enter}')
@@ -30,7 +31,9 @@ class RfqPage{
         cy.get('#partner_ids_0').click()
         cy.get('#partner_ids_0').type('{downArrow}{downArrow}{enter}')
         cy.wait(1000)
-        cy.get('#partner_ids_0').type('{downArrow}{downArrow}{downArrow}{enter}')
+        cy.get('#partner_ids_0').type('{downArrow}{downArrow}{enter}')
+        cy.wait(500)
+        cy.get('#partner_ids_0').type('{downArrow}{downArrow}{enter}')
         cy.wait(500)
         cy.xpath("//tbody/tr[position()=1]/td[position()=5][@name='price_unit']").type('{selectall}{del}')
         cy.wait(500)

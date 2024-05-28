@@ -11,13 +11,13 @@ class PRPage {
             // cy.get('.d-xl-none > .o_list_button_add').click()
             cy.wait(1000)
             cy.get('#priority_0').select('High')
-            cy.get('#requisition_type_0').select('Local Purchase')
+            // cy.get('#requisition_type_0').select('Local Purchase')
 
-            // cy.get('#requisition_type_0').select('Direct Purchase')
-            // cy.get('#requisition_type_0').select('Foreign Purchase')
+            // // cy.get('#requisition_type_0').select('Direct Purchase')
+            cy.get('#requisition_type_0').select('Foreign Purchase')
 
             cy.get('#department_id_0').type('DevOps').type('{enter}')
-            cy.wait(2000)
+            cy.wait(1000)
 
             // cy.get('#department_id_0').type('Testing CCL dept').type('{enter}')
             // cy.wait(2000)
@@ -31,9 +31,13 @@ class PRPage {
             // // Budget Selections point
             // cy.wait(2000)
 
+            // cy.get('#budget_id_0').type('{enter}')
             cy.get('#budget_id_0').type('{downArrow}{enter}')
+            // cy.get('#budget_id_0').click()
+            // cy.get('#budget_id_0').type('DevOps Budget - It-Product').type('{enter}')
+
             // Budget Selections point
-            cy.wait(2000)
+            cy.wait(1000)
 
             // First  product line created
             cy.contains('a', 'Add a line').click()
