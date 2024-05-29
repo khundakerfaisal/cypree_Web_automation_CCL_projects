@@ -12,9 +12,10 @@ module.exports = defineConfig({
         'cypress/e2e/TestRunner/login.cy.js',
         'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
         'cypress/e2e/TestRunner/Rfq.cy.js',
-        'cypress/e2e/TestRunner/csTestRunner.cy.js',
+        // 'cypress/e2e/TestRunner/csTestRunner.cy.js',
         // 'cypress/e2e/TestRunner/localPo.cy.js',
-        'cypress/e2e/TestRunner/foreignPo.cy.js',
+        // 'cypress/e2e/TestRunner/foreignPo.cy.js',
+        'cypress/e2e/TestRunner/directPo.cy.js',
       ]
       return config;
       // implement node event listeners here

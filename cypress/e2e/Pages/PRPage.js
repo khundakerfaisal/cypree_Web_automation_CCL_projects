@@ -13,8 +13,8 @@ class PRPage {
             cy.get('#priority_0').select('High')
             // cy.get('#requisition_type_0').select('Local Purchase')
 
-            // // cy.get('#requisition_type_0').select('Direct Purchase')
-            cy.get('#requisition_type_0').select('Foreign Purchase')
+            cy.get('#requisition_type_0').select('Direct Purchase')
+            // cy.get('#requisition_type_0').select('Foreign Purchase')
 
             cy.get('#department_id_0').type('DevOps').type('{enter}')
             cy.wait(1000)
