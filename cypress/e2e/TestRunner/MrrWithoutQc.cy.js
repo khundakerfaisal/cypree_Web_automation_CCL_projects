@@ -1,17 +1,18 @@
 import LoginPage from "../Pages/loginPage";
-import MRRPage from "../Pages/MRRPage";
+import MRRWithoutQCPage from "../Pages/MRRWithoutQCPage";
+
 
 describe("Create MRR",()=>{
 
     const loginPage = new LoginPage();
-    const mrrPage = new MRRPage();
+    const mrrWithoutQcPage = new MRRWithoutQCPage();
 
 
     beforeEach(()=>{
         loginPage.CCLLoginPage();
     })
     it("Create New MRR",()=>{
-      mrrPage.CCLMRR();
+      mrrWithoutQcPage.CCLMRRWithoutQC();
     
     })
   
