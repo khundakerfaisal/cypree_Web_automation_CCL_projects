@@ -21,4 +21,5 @@ describe("Create Direct PO",()=>{
         });
       });
       Cypress.on('uncaught: exception', ()=> false)
+  
 })
