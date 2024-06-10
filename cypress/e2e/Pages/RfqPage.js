@@ -50,11 +50,6 @@ class RfqPage{
         cy.xpath('//button[@name="action_create_quotations"]').click()
         cy.wait(500)
 
-        
-    
-
-
-
 
     } 
 }

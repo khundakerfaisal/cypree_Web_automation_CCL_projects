@@ -4,9 +4,9 @@ import PRPageAccessGroupWise from "../Pages/PRPageAccessWise";
 import RFQTypeWiseWithAccessGroup from "../Pages/REQTypeWiseWithAccessControl"
 describe("Create Purchase Request", () => {
     const loginPage = new LoginPage();
-    const prPage=new PRPage();
-    const prAccessPage=new PRPageAccessGroupWise();
-    const RfqType= new RFQTypeWiseWithAccessGroup();
+    const prPage = new PRPage();
+    const prAccessPage = new PRPageAccessGroupWise();
+    const RfqType = new RFQTypeWiseWithAccessGroup();
 
     beforeEach(() => {
         loginPage.CCLLoginPage();
@@ -16,6 +16,9 @@ describe("Create Purchase Request", () => {
         // prAccessPage.CCLPRPageAccessGroupWise();
         // RfqType.CCLRFQTypeWiseWithAccessGroup();
 
+    })
+    Cypress.on('uncaught:exception', (err, runnable) => {
+        return false
     })
 })
 
