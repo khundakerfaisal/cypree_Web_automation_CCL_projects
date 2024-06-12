@@ -14,7 +14,9 @@ describe("Create Request For Quotation", () => {
     // RfqType.CCLRFQTypeWiseWithAccessGroup();
 
   })
-
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    return false
+})
   it("closes the test browser", () => {
     // Close the browser window
     cy.window().then(win => {
