@@ -8,13 +8,13 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
-      // const localPOspecPatterns= new LocalPOspecPatterns();
-      config.specPattern = [
-        // localPOspecPatterns.CC
-      
-       
-        'cypress/e2e/TestRunner/login.cy.js',
-        'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
+      config.specPattern = 
+ 
+      [
+        './PoMFlow/specPatterns.cy.js',
+        
+        // 'cypress/e2e/TestRunner/login.cy.js',
+        // 'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
         // 'cypress/e2e/TestRunner/Rfq.cy.js',
         // 'cypress/e2e/TestRunner/csTestRunner.cy.js',
         // 'cypress/e2e/TestRunner/localPo.cy.js',
@@ -29,7 +29,5 @@ module.exports = defineConfig({
     },
   },
 });
-
-
 
 
