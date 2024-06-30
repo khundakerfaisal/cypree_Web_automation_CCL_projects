@@ -1,16 +1,16 @@
 import LoginPage from "../Pages/loginPage";
-import directPoPage from "../Pages/directPoPage";
+import directPoPageByPr from "../Pages/directPoPageByPr";
 
 describe("Create Direct PO", () => {
 
   const loginPage = new LoginPage();
-  const directPo = new directPoPage();
+  const directPoByPr = new directPoPageByPr();
 
   beforeEach(() => {
     loginPage.CCLLoginPage();
   })
   it("Create New Direct PO", () => {
-    directPo.CCLDirectPo();
+    directPoByPr.CCLDirectPo();
   })
 
 

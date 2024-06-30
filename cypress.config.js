@@ -11,7 +11,10 @@ module.exports = defineConfig({
       config.specPattern = 
  
       [
-        './PoMFlow/specPatterns.cy.js',
+        'cypress/e2e/PoMFlow/localPoSpecRfqAndCS.cy.js',
+        'cypress/e2e/PoMFlow/directPoByPR.cy.js',
+        'cypress/e2e/PoMFlow/directPOByRfq.cy.js',
+
         
         // 'cypress/e2e/TestRunner/login.cy.js',
         // 'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',

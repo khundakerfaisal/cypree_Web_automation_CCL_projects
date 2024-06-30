@@ -10,7 +10,7 @@ class LocalPoPage{
         cy.get('#purchase_base_0').select("Comparative Statement")
         // cy.get('#purchase_base_0').
         cy.wait(1000)
-        cy.xpath('//div[@name="partner_id"]').type('DreamIT Ltd').type('{enter}')
+        cy.xpath('//div[@name="partner_id"]').type('Fair Electronics Limited').type('{enter}')
         cy.wait(500)
         cy.get('#rfq_id_0').click()
         cy.get('.dropdown-item').eq(1).type('{enter}')   

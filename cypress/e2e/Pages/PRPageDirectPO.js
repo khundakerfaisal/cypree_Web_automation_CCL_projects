@@ -1,7 +1,7 @@
 const URL = require('E://CY_CCL_Projects/cypress/fixtures/login_URL.json')
 const authGroup = require('E://CY_CCL_Projects/cypress/fixtures/userAccessGroup.json')
-class PRPage {
-    CCLPRPage() {
+class PRPageDirectPO {
+    CCLPRDPOPage() {
         cy.get('[title="Home Menu"]').click()
         cy.get('[href="#menu_id=309&action=502"]').click()
         cy.wait(2000)
@@ -11,34 +11,17 @@ class PRPage {
             // cy.get('.d-xl-none > .o_list_button_add').click()
             cy.wait(1000)
             cy.get('#priority_0').select('High')
-            cy.get('#requisition_type_0').select('Local Purchase')
+            // cy.get('#requisition_type_0').select('Local Purchase')
 
-            // cy.get('#requisition_type_0').select('Direct Purchase')
-            // cy.get('#requisition_type_0').select('Foreign Purchase')
-
+         
             cy.get('#department_id_0').type('DevOps').type('{enter}')
-            cy.wait(1000)
+            cy.wait(2000)
 
-            // cy.get('#department_id_0').type('Testing CCL dept').type('{enter}')
-            // cy.wait(2000)
-            // cy.get('#budget_id_0').type('{downArrow}{enter}')       
-            // // Budget Selections point
-            // cy.wait(500)
-
-            // cy.get('#department_id_0').type('Sales').type('{enter}')
-            // cy.wait(2000)
-            // cy.get('#budget_id_0').type('{downArrow}{enter}')
-            // // Budget Selections point
-            // cy.wait(2000)
-
-            // cy.get('#budget_id_0').type('{enter}')
-            cy.get('#budget_id_0').type('{downArrow}{enter}')
-            // cy.get('#budget_id_0').click()
-            // cy.get('#budget_id_0').type('DevOps Budget - It-Product').type('{enter}')
-
-            // Budget Selections point
-            cy.wait(1000)
-
+            cy.get('#budget_id_0').type('{downArrow}{downArrow}{enter}')
+            cy.wait(2000)
+            cy.get('#requisition_type_0').select('Direct Purchase')
+            // cy.get('#requisition_type_0').select('Foreign Purchase')
+            cy.wait(500)
             // First  product line created
             cy.contains('a', 'Add a line').click()
             cy.wait(1000)
@@ -106,4 +89,4 @@ class PRPage {
     }
 }
 
-export default PRPage;
+export default PRPageDirectPO;

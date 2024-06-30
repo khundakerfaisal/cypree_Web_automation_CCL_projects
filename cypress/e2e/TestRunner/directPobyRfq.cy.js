@@ -1,16 +1,16 @@
 import LoginPage from "../Pages/loginPage";
-import specPattern from "./PoMFlow/specPatterns";
+import directPoPageByRfq from "../Pages/directPoPageByRfq";
 
-describe("Create Local PO", () => {
+describe("Create Direct PO", () => {
+
   const loginPage = new LoginPage();
-  const specPattern= new specPattern();
+  const directPoByRfq = new directPoPageByRfq();
+
   beforeEach(() => {
     loginPage.CCLLoginPage();
   })
-
-  it("Create New Local PO", () => {
-    
-    specPattern.SpecPatternLocalPo();
+  it("Create New Direct PO", () => {
+    directPoByRfq.CCLDirectPo();
   })
 
 
@@ -23,5 +23,5 @@ describe("Create Local PO", () => {
   Cypress.on('uncaught:exception', (err, runnable) => {
     return false
   })
-})
 
+})

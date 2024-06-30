@@ -14,12 +14,6 @@ describe("Create Local PO", () => {
   })
 
 
-  it("closes browser", () => {
-    // Close the browser window
-    cy.window().then(win => {
-      win.close();
-    });
-  });
   Cypress.on('uncaught:exception', (err, runnable) => {
     return false
   })

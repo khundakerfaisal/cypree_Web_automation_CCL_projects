@@ -16,7 +16,7 @@ class MRRWithoutQCPage{
         cy.get('#purchase_order_id_0').click()
         cy.wait(1000)
         cy.get('#purchase_order_id_0').type('{enter}')   
-
+        cy.wait(1000)
         cy.xpath('//button[@data-tooltip="Save manually"]').click()
         cy.wait(500)
      
@@ -24,7 +24,7 @@ class MRRWithoutQCPage{
         cy.xpath('//button[@name="action_qc_confirm"]').click()
         cy.wait(500)
         cy.get('.modal-footer > .btn-primary').click()
-        cy.wait(500)
+        cy.wait(1500)
 
         cy.xpath('//button[@name="btn_send_to_approver"]').click()
         cy.wait(500)
