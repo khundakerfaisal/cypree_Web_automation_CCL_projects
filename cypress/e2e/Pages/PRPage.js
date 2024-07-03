@@ -6,37 +6,19 @@ class PRPage {
         cy.get('[href="#menu_id=309&action=502"]').click()
         cy.wait(2000)
         for (let i = 0; i < 1; i++) {
-            // cy.wait(2000)
             cy.contains('button', 'New').click()
-            // cy.get('.d-xl-none > .o_list_button_add').click()
             cy.wait(1000)
             cy.get('#priority_0').select('High')
             cy.get('#requisition_type_0').select('Local Purchase')
-
-            // cy.get('#requisition_type_0').select('Direct Purchase')
-            // cy.get('#requisition_type_0').select('Foreign Purchase')
-
             cy.get('#department_id_0').type('DevOps').type('{enter}')
             cy.wait(1000)
+            cy.get('#budget_id_0').click()
+            cy.get('#budget_id_0').wait(1000).type('{downArrow}{enter}')
+            // const partialValue = 'DevOps Budget - Entertainment - 2023-2024';
+            // cy.get('#budget_id_0').contains(partialValue, { timeout: 5000 }).click();
 
-            // cy.get('#department_id_0').type('Testing CCL dept').type('{enter}')
-            // cy.wait(2000)
-            // cy.get('#budget_id_0').type('{downArrow}{enter}')       
-            // // Budget Selections point
-            // cy.wait(500)
 
-            // cy.get('#department_id_0').type('Sales').type('{enter}')
-            // cy.wait(2000)
             // cy.get('#budget_id_0').type('{downArrow}{enter}')
-            // // Budget Selections point
-            // cy.wait(2000)
-
-            // cy.get('#budget_id_0').type('{enter}')
-            cy.get('#budget_id_0').type('{downArrow}{enter}')
-            // cy.get('#budget_id_0').click()
-            // cy.get('#budget_id_0').type('DevOps Budget - It-Product').type('{enter}')
-
-            // Budget Selections point
             cy.wait(1000)
 
             // First  product line created
