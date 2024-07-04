@@ -9,7 +9,7 @@ describe("Create Request For Quotation", () => {
   beforeEach(() => {
     loginPage.CCLLoginPage();
   })
-  it("Create New Purchase Requisition", () => {
+  it("Create New Request For quotation", () => {
     // rfqPage.CCLRfq();
     rfqForNotesheet.CCLRfqForNotesheet();
   })

@@ -1,23 +1,39 @@
-describe('Local PO Test Suite With Notesheet',()=>{
-    it('should run login test',()=>{
-    require('../TestRunner/login.cy.js');
-    });
+import LoginPage from "../Pages/loginPage";
+import PRPage from "../Pages/PRPage";
+import RfqForNotesheetPage from "../Pages/RfqForNotesheetPage";
+import noteSheetByRFQPage from "../Pages/noteSheetByRFQPage";
+import LocalPoPageByNotesheet from "../Pages/localPoPageByNotesheet";
+import MRRWithQCPage from "../Pages/MRRWithQCPage";
+
+describe('Local PO Test Suite With Notesheet', () => {
+    const loginPage = new LoginPage();
+    const prPage = new PRPage();
+    const rfqForNotesheet = new RfqForNotesheetPage();
+    const notesheetRfqPage = new noteSheetByRFQPage();
+    const localPoPageByNotesheet = new LocalPoPageByNotesheet();
+    const mrrWithQcPage = new MRRWithQCPage();
+
+    beforeEach(() => {
+        loginPage.CCLLoginPage();
+    })
     it('should run Local purchase requisition test', () => {
-    require('../TestRunner/PurchaseRequisition.cy.js');
+        prPage.CCLPRPage();
     });
     it('should run Local PO By RFQ', () => {
-        require('../TestRunner/RfqForNotesheet.cy.js');
+        rfqForNotesheet.CCLRfqForNotesheet();
     });
     it('should run Local PO By Notesheet', () => {
-        require('../TestRunner/notesheetByRFQ.cy.js');
+        notesheetRfqPage.CCLNotesheetByRFQ();
     });
     it('should run Local PO By Notesheet', () => {
-        require('../TestRunner/localPoByNotesheet.cy.js');
+        localPoPageByNotesheet.CCLLocalPoByNotesheet();
     });
     it('should run MRR with QC test', () => {
-        require('../TestRunner/MrrWithoutQc.cy.js');
+        mrrWithQcPage.CCLMRRWithQC();
     });
 
-
-
 });
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    return false
+})

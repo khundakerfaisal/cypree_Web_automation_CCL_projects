@@ -11,15 +11,15 @@ module.exports = defineConfig({
       config.specPattern = 
  
       [
-        // 'cypress/e2e/PoMFlow/localPoSpecRfqAndCS.cy.js',
-        // 'cypress/e2e/PoMFlow/directPoByPR.cy.js',
-        // 'cypress/e2e/PoMFlow/directPOByRfq.cy.js',
-        // 'cypress/e2e/PoMFlow/localPONotesheetByPR.cy.js',
-        // 'cypress/e2e/PoMFlow/localPONotesheetByRFQ.cy.js',
+        'cypress/e2e/PoMFlow/localPoSpecRfqAndCS.cy.js',
+        'cypress/e2e/PoMFlow/directPoByPR.cy.js',
+        'cypress/e2e/PoMFlow/directPOByRfq.cy.js',
+        'cypress/e2e/PoMFlow/localPONotesheetByPR.cy.js',
+        'cypress/e2e/PoMFlow/localPONotesheetByRFQ.cy.js',
 
         
         // 'cypress/e2e/TestRunner/notesheetByPR.cy.js',
-        'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
+        // 'cypress/e2e/TestRunner/PurchaseRequisition.cy.js',
         // 'cypress/e2e/TestRunner/RfqForNotesheet.cy.js',
         // 'cypress/e2e/TestRunner/notesheetByRFQ.cy.js',
         // 'cypress/e2e/TestRunner/localPo.cy.js',
