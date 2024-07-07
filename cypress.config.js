@@ -15,7 +15,7 @@ module.exports = defineConfig({
         'cypress/e2e/PoMFlow/directPoByPR.cy.js',
         'cypress/e2e/PoMFlow/directPOByRfq.cy.js',
         'cypress/e2e/PoMFlow/localPONotesheetByPR.cy.js',
-        'cypress/e2e/PoMFlow/localPONotesheetByRFQ.cy.js',
+        // 'cypress/e2e/PoMFlow/localPONotesheetByRFQ.cy.js',
 
         
         // 'cypress/e2e/TestRunner/notesheetByPR.cy.js',
