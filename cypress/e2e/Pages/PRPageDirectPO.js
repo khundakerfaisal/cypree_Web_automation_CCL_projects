@@ -47,7 +47,7 @@ class PRPageDirectPO {
             // End product line created
             cy.get('.o_form_button_save').click()
             cy.get('[name="action_submit"]').click()
-            cy.wait(500)
+            cy.wait(1000)
 
             //HoD Approval button permission start
 
@@ -62,7 +62,7 @@ class PRPageDirectPO {
             // cy.get('[data-id="datapoint_2"] > .o_list_char').click()
             // cy.wait(500)
             cy.get('[name="action_hod_hoit_approve"]').click()
-            cy.wait(500)
+            cy.wait(1000)
 
             //HoD Approval button permission End
 

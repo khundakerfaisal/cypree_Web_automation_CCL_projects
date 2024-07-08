@@ -35,20 +35,20 @@ class noteSheetByRFQPage {
    
             // From submission and Approval Start point
             cy.xpath('//button[@data-tooltip="Save manually"]').click()
-            cy.wait(500)
+            cy.wait(1000)
             cy.get('[name="action_submit"]').click()
-            cy.wait(500)
+            cy.wait(1000)
 
             cy.get('[name="action_layerOne_submit"]').click()
-            cy.wait(500)
+            cy.wait(1000)
 
             cy.get('[name="action_layerTwo_submit"]').click()
-            cy.wait(500)
+            cy.wait(1000)
 
             cy.get('[name="action_scm_hod_approve"]').click()
-            cy.wait(500)
+            cy.wait(1000)
             cy.get('[name="action_md_approve"]').click()
-            cy.wait(500)
+            cy.wait(1000)
              //Approval End point
 
             cy.get('li.breadcrumb-item')

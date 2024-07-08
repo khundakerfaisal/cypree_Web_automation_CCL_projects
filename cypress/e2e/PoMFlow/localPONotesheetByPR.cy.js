@@ -17,7 +17,7 @@ describe('Local PO Test Suite With Notesheet', () => {
     it('should run Local purchase requisition test', () => {
         prPage.CCLPRPage();
     });
-    it('should run Local PO By Notesheet', () => {
+    it('should run Notesheet', () => {
         notesheetPRPage.CCLNotesheetByPR();
     });
     it('should run Local PO By Notesheet', () => {

@@ -71,7 +71,7 @@ class RfqPage{
         cy.get('.o_form_button_save').click()
         cy.wait(1000)
         cy.xpath('//button[@name="action_rfq_confirm"]').click()
-        cy.wait(500)
+        cy.wait(1000)
         cy.xpath('//button[@name="action_multiple_quotation_creation"]').click()
         cy.wait(1000)
         // If we choose multiple vendor use this code
