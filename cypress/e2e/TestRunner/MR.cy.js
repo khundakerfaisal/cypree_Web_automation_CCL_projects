@@ -21,11 +21,11 @@ describe("Create MRR", () => {
     return false
   })
 
-  it("closes browser", () => {
-    // Close the browser window
-    cy.window().then(win => {
-      win.close();
-    });
-  });
+  // it("closes browser", () => {
+  //   // Close the browser window
+  //   cy.window().then(win => {
+  //     win.close();
+  //   });
+  // });
 
 })
