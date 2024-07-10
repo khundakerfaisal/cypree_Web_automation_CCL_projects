@@ -11,7 +11,7 @@ describe("Create MRR", () => {
   beforeEach(() => {
     loginPage.CCLLoginPage();
   })
-  it("Create New MRR", () => {
+  it("Create New Material Requisition", () => {
     MrPage.CCLMR();
 
   })
