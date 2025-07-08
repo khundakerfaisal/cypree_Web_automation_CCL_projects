@@ -2,8 +2,9 @@ const URL = require('E://CY_CCL_Projects/cypress/fixtures/login_URL.json')
 const authGroup = require('E://CY_CCL_Projects/cypress/fixtures/userAccessGroup.json')
 class PRPageDirectPO {
     CCLPRDPOPage() {
-        cy.get('[title="Home Menu"]').click()
-        cy.get('[href="#menu_id=309&action=502"]').click()
+        cy.xpath('//div/button[@title="Home Menu"]').click()
+        cy.wait(2000)
+        cy.get('[href="#menu_id=360&action=558"]').click()
         cy.wait(2000)
         for (let i = 0; i < 1; i++) {
             // cy.wait(2000)
@@ -14,20 +15,24 @@ class PRPageDirectPO {
             // cy.get('#requisition_type_0').select('Local Purchase')
 
          
-            cy.get('#department_id_0').type('DevOps').type('{enter}')
+            cy.get('#department_id_0').type('IT').type('{enter}')
             cy.wait(2000)
 
-            cy.get('#budget_id_0').type('{downArrow}{downArrow}{enter}')
+            // cy.get('#budget_id_0').wait(700).type('{downArrow}{enter}')
+             cy.get('#budget_id_0').wait(700).type('{enter}')
             cy.wait(2000)
             cy.get('#requisition_type_0').select('Direct Purchase')
+             cy.wait(500)
+            cy.get('#pr_type_0').select('HOIT PR')
             // cy.get('#requisition_type_0').select('Foreign Purchase')
             cy.wait(500)
             // First  product line created
             cy.contains('a', 'Add a line').click()
             cy.wait(1000)
-            cy.get('[data-tooltip-delay="1000"][name="product_id"] > .o_field_widget > .o_field_many2one_selection > .o_input_dropdown > .o-autocomplete > .o-autocomplete--input').click()
+            cy.get('[data-tooltip-delay="1000"][name="product_tmpl_id"]').click()
+           // cy.get('[data-tooltip-delay="1000"][name="product_id"] > .o_field_widget > .o_field_many2one_selection > .o_input_dropdown > .o-autocomplete > .o-autocomplete--input').click()
             cy.wait(2000)
-            cy.contains('a', 'CCL Test product 1').click()
+            cy.contains('a', 'Chef Cap').click()
             cy.wait(2000)
             cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').click()
             cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').clear().type('5')

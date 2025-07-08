@@ -1,7 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca4fceb0-25a9-4572-959f-24dc18368d3f" name="Changes" comment="" />
+    <list default="true" id="ca4fceb0-25a9-4572-959f-24dc18368d3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/MIPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/MIPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/MRPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/MRPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/MRRWithQCPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/MRRWithQCPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/MRRWithoutQCPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/MRRWithoutQCPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/PRPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/PRPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/PRPageAccessWise.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/PRPageAccessWise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/PRPageDirectPO.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/PRPageDirectPO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/REQTypeWiseWithAccessControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/REQTypeWiseWithAccessControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/RfqForNotesheetPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/RfqForNotesheetPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/RfqPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/RfqPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/comparativestatementPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/comparativestatementPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/directPoPageByPr.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/directPoPageByPr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/directPoPageByRfq.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/directPoPageByRfq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/foreignPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/foreignPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/localPoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/localPoPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/localPoPageByNotesheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/localPoPageByNotesheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/noteSheetByPRPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/noteSheetByPRPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Pages/noteSheetByRFQPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Pages/noteSheetByRFQPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/TestRunner/directPoByPR.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/TestRunner/directPoByPR.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/userAccessGroup.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/fixtures/userAccessGroup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/MI.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/MI.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/reports/html/videos/MR.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/reports/html/videos/MR.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/MI.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/MI.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/videos/MR.cy.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/videos/MR.cy.js.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/is-ci" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/is-ci.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/is-ci.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@cypress/request/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@cypress/request/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/aws4.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws4/aws4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aws4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/callBound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/test/callBound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/call-bind/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/vendors.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/vendors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/angular/angular/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/angular/angular/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/angular/angular/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/angular/angular/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/angular/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/angular/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/angular/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/angular/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/angular/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/angular/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/lib/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/lib/exec/spawn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/lib/exec/spawn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/lib/exec/xvfb.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/lib/exec/xvfb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/lib/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/lib/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/lib/tasks/install.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/lib/tasks/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/lib/tasks/verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/lib/tasks/verify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/lib/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/lib/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/mount-utils/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/mount-utils/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/mount-utils/mount-utils/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/mount-utils/mount-utils/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/mount-utils/mount-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/mount-utils/mount-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/mount-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/mount-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/dist/cypress-react.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/dist/cypress-react.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/dist/cypress-react.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/dist/cypress-react.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/react/dist/cypress-react.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/react/dist/cypress-react.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/react/dist/cypress-react.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/react/dist/cypress-react.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/react/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/react/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react/react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/dist/cypress-react.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/dist/cypress-react.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/dist/cypress-react.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/dist/cypress-react.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/react18/dist/cypress-react.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/react18/dist/cypress-react.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/react18/dist/cypress-react.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/react18/dist/cypress-react.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/react18/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/react18/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/react18/react18/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/react18/react18/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/dist/cypress-svelte.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/dist/cypress-svelte.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/dist/cypress-svelte.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/dist/cypress-svelte.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/dist/cypress-svelte.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/dist/cypress-svelte.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/dist/cypress-svelte.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/dist/cypress-svelte.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/svelte/svelte/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/types/cypress.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/types/cypress.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/types/minimatch/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/types/minimatch/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/types/net-stubbing.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/types/net-stubbing.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/dist/cypress-vue.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/dist/cypress-vue.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/dist/cypress-vue.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/dist/cypress-vue.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/vue/dist/cypress-vue.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/vue/dist/cypress-vue.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/vue/dist/cypress-vue.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/vue/dist/cypress-vue.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/vue/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/vue/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue/vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue/vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/dist/cypress-vue2.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/dist/cypress-vue2.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/dist/cypress-vue2.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/dist/cypress-vue2.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/dist/cypress-vue2.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/dist/cypress-vue2.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/dist/cypress-vue2.esm-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/dist/cypress-vue2.esm-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cypress/vue2/vue2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-data-property/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-define-property/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-define-property/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-define-property/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-define-property/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-define-property/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-define-property/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-define-property/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-define-property/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-define-property/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-define-property/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/README.md.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/lib/form_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/lib/form_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/form-data/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-intrinsic/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-intrinsic/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-intrinsic/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-intrinsic/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-intrinsic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-intrinsic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-intrinsic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-intrinsic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-intrinsic/test/GetIntrinsic.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-intrinsic/test/GetIntrinsic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gopd/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gopd/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gopd/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gopd/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gopd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gopd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gopd/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gopd/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-property-descriptors/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-proto/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/shams.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/shams.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/core-js.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/core-js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/get-own-property-symbols.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/test/shams/get-own-property-symbols.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/test/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/test/tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-signature/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-signature/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-ci/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-ci/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-ci/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-ci/bin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-ci/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-ci/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/test/quoteStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/test/quoteStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/test/values.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/test/values.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/browserstack-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/data/rules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/dist/psl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/dist/psl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/psl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/punycode/LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/punycode/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/punycode/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/punycode/punycode.es6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/punycode/punycode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/dist/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/test/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/querystringify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/querystringify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/querystringify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/querystringify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requires-port/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requires-port/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requires-port/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requires-port/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requires-port/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requires-port/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requires-port/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/set-function-length/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/side-channel/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/side-channel/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/memstore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/pathMatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/permuteDomain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/pubsuffix-psl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/utilHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/validators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/lib/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/node_modules/universalify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/node_modules/universalify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/node_modules/universalify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/node_modules/universalify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tough-cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tough-cookie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse/dist/url-parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse/dist/url-parse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse/dist/url-parse.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +298,12 @@
       <option name="presentableId" value="Default" />
       <updated>1719318841724</updated>
       <workItem from="1719318847796" duration="17000" />
+      <workItem from="1738497856301" duration="17000" />
+      <workItem from="1750077621766" duration="596000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

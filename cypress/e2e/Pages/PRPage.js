@@ -2,7 +2,7 @@ const URL = require('E://CY_CCL_Projects/cypress/fixtures/login_URL.json')
 const authGroup = require('E://CY_CCL_Projects/cypress/fixtures/userAccessGroup.json')
 class PRPage {
     CCLPRPage() {
-        cy.get('[title="Home Menu"]').click()
+        cy.get('.o_grid_apps_menu__button').eq(0).click()
         cy.get('[href="#menu_id=309&action=502"]').click()
         cy.wait(2000)
         for (let i = 0; i < 1; i++) {

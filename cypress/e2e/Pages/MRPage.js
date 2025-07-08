@@ -1,8 +1,9 @@
 class MRPage{
     CCLMR(){
-        cy.get('.o_grid_apps_menu__button').eq(0).click()
+        // cy.get('.o_grid_apps_menu__button').eq(0).click()
+        cy.get('[title="Home Menu"]').click()
  
-        cy.get('[href="#menu_id=237&action=400"]').click()
+        cy.xpath('//div/a[@data-menu-xmlid="stock.menu_stock_root"]').click()
         cy.xpath('//button[@data-menu-xmlid="mrr_inventory.stock_warehouse_categ"]').click()
         cy.xpath('//div/a[@data-menu-xmlid="material_requisition_issue.material_requisition_menu"]').click()
         cy.wait(1000)
@@ -14,7 +15,7 @@ class MRPage{
         cy.wait(1000)
         cy.get('[data-tooltip-delay="1000"][name="product_id"] > .o_field_widget > .o_field_many2one_selection > .o_input_dropdown > .o-autocomplete > .o-autocomplete--input').click()
         cy.wait(500)
-        cy.contains('a', 'CCL Test product 1').click()
+        cy.contains('a', '(P.H ) Circlip-B00012090 :8102').click()
         cy.wait(500)
 
         cy.get('.o-autocomplete').eq(4).click()

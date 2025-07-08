@@ -1,6 +1,6 @@
 class noteSheetByRFQPage {
     CCLNotesheetByRFQ() {
-        cy.get('[title="Home Menu"]').click()
+        cy.get('.o_grid_apps_menu__button').eq(0).click()
         cy.get('[href="#menu_id=309&action=502"]').click()
         cy.wait(2000)
         cy.xpath('//button[@data-menu-xmlid="purchase.menu_procurement_management"]').click()

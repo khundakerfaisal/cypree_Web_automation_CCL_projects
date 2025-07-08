@@ -1,7 +1,7 @@
 class MRRWithoutQCPage{
     CCLMRRWithoutQC(){
-        cy.get('[title="Home Menu"]').click()
-        cy.get('[href="#menu_id=237&action=400"]').click()
+        cy.xpath('//div/button[@title="Home Menu"]').click()
+        cy.get('[href="#menu_id=222&action=397"]').click()
         cy.xpath('//button[@data-menu-xmlid="mrr_inventory.stock_warehouse_categ"]').click()
         cy.xpath('//div/a[@data-menu-xmlid="mrr_inventory.menu_mrr_view"]').click()
         cy.wait(1000)
@@ -36,6 +36,7 @@ class MRRWithoutQCPage{
         cy.get('.breadcrumb-item').eq(0)
         .contains('MRR')
         .should('exist');
+        cy.wait(1000)
  
     }
 }
