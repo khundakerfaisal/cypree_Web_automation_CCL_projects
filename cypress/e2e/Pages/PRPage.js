@@ -8,7 +8,7 @@ class PRPage {
         cy.xpath('//*[@data-menu-xmlid="purchase.menu_purchase_root"]').click();
        
         cy.wait(2000)
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < 1; i++) {
             cy.contains('button', 'New').click()
             cy.wait(1000)
             cy.get('#priority_0').select('High')

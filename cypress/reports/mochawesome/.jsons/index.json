@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-08-07T12:25:45.974Z",
+    "end": "2025-08-07T12:25:53.123Z",
+    "duration": 7149,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c2f4ab46-d4bf-4208-a823-2a0f25f0e01c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\TestRunner\\login.cy.js",
+      "file": "cypress\\e2e\\TestRunner\\login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5bc21ad5-74fc-446a-9cdb-160bb3deef3f",
+          "title": "CCL Login page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login with valid credentials",
+              "fullTitle": "CCL Login page Login with valid credentials",
+              "timedOut": null,
+              "duration": 4117,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\TestRunner\\\\login.cy.js\"\n}",
+              "code": "loginPage.CCLLoginPage();",
+              "err": {},
+              "uuid": "02119bb8-7579-43d3-af5d-8b0912722b25",
+              "parentUUID": "5bc21ad5-74fc-446a-9cdb-160bb3deef3f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "02119bb8-7579-43d3-af5d-8b0912722b25"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4117,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "index",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress\\reports\\mochawesome\\.jsons",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportFilename": "index"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
