@@ -19,7 +19,7 @@ module.exports = defineConfig({
  
       [
         // 'cypress/e2e/PoMFlow/localPoSpecRfqAndCS.cy.js',
-        'cypress/e2e/PoMFlow/directPOByPR.cy.js',
+        // 'cypress/e2e/PoMFlow/directPOByPR.cy.js',
         // 'cypress/e2e/PoMFlow/directPOByRfq.cy.js',
         // 'cypress/e2e/PoMFlow/localPONotesheetByPR.cy.js',
         // 'cypress/e2e/PoMFlow/localPONotesheetByRFQ.cy.js',
@@ -36,6 +36,9 @@ module.exports = defineConfig({
         // 'cypress/e2e/TestRunner/MrrWithQc.cy.js',
         // 'cypress/e2e/TestRunner/MR.cy.js',
         // 'cypress/e2e/TestRunner/MI.cy.js',
+        'cypress/e2e/TestRunner/login.cy.js',
+        'cypress/e2e/TestRunner/PurchaseRequisition.cy.js'
+
       ]
       return config;
       // implement node event listeners here

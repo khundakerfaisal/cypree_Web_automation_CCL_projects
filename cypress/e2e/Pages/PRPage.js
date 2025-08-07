@@ -1,16 +1,22 @@
-const URL = require('E://CY_CCL_Projects/cypress/fixtures/login_URL.json')
-const authGroup = require('E://CY_CCL_Projects/cypress/fixtures/userAccessGroup.json')
+// const URL = require('E://CY_CCL_Projects/cypress/fixtures/login_URL.json')
+// const authGroup = require('E://CY_CCL_Projects/cypress/fixtures/userAccessGroup.json')
 class PRPage {
     CCLPRPage() {
-        cy.get('.o_grid_apps_menu__button').eq(0).click()
-        cy.get('[href="#menu_id=309&action=502"]').click()
+         cy.get('[title="Home Menu"]').click()
+        // cy.get('.o_grid_apps_menu__button').eq(0).click()
+        // cy.get('[href="#menu_id=309&action=502"]').click()
+        cy.xpath('//*[@data-menu-xmlid="purchase.menu_purchase_root"]').click();
+       
         cy.wait(2000)
-        for (let i = 0; i < 1; i++) {
+        for (let i = 0; i < 8; i++) {
             cy.contains('button', 'New').click()
             cy.wait(1000)
             cy.get('#priority_0').select('High')
             cy.get('#requisition_type_0').select('Local Purchase')
-            cy.get('#department_id_0').type('DevOps').type('{enter}')
+            cy.wait(1000)
+            cy.get('#pr_type_0').select('Factory PR')
+
+            // cy.get('#department_id_0').type('DevOps').type('{enter}')
             cy.wait(1000)
             cy.get('#budget_id_0').click()
             cy.get('#budget_id_0').wait(1000).type('{downArrow}{enter}')
@@ -24,29 +30,29 @@ class PRPage {
             // First  product line created
             cy.contains('a', 'Add a line').click()
             cy.wait(1000)
-            cy.get('[data-tooltip-delay="1000"][name="product_id"] > .o_field_widget > .o_field_many2one_selection > .o_input_dropdown > .o-autocomplete > .o-autocomplete--input').click()
+            cy.get('[data-tooltip-delay="1000"][name="product_tmpl_id"]').click()
             cy.wait(2000)
-            cy.contains('a', 'CCL Test product 1').click()
+            cy.contains('a', '( P.H ) Flexiable Pipe-3/4" : 8414').click()
             cy.wait(2000)
             cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').click()
-            cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').clear().type('5')
+            cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').clear().type('15')
             cy.wait(500)
             // End First  product line created
 
             // Second product line created
-            // cy.contains('a', 'Add a line').click()
-            // cy.wait(1000)
-            // cy.get('[data-tooltip-delay="1000"][name="product_id"] > .o_field_widget > .o_field_many2one_selection > .o_input_dropdown > .o-autocomplete > .o-autocomplete--input').click()
-            // cy.wait(2000)
-            // cy.contains('a', 'Chair Executive ').click()
-            // cy.wait(3000)
-            // cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').click()
-            // cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').clear().type('3')
-            // cy.wait(500)
+            cy.contains('a', 'Add a line').click()
+            cy.wait(1000)
+            cy.get('.o_selected_row > [data-tooltip-delay="1000"][name="product_tmpl_id"]').click()
+            cy.wait(2000)
+            cy.contains('a', 'Chef Cap').click()
+            cy.wait(3000)
+            cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').click()
+            cy.get('[data-tooltip-delay="1000"][name="product_qty"] > .o_field_widget > .o_input').clear().type('3')
+            cy.wait(500)
             // End product line created
             cy.get('.o_form_button_save').click()
             cy.get('[name="action_submit"]').click()
-            cy.wait(500)
+            cy.wait(8000)
 
             //HoD Approval button permission start
 

@@ -1,3 +1,5 @@
 {
-    "TestURL": "http://192.168.3.187:7071/web/login"
+    // "TestURL": "http://192.168.3.187:7071/web/login",
+
+    "PrestageURL":"http://192.168.3.226:9090/web/login"
 }
